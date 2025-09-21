@@ -43,3 +43,9 @@ async def health():
 app.include_router(prefix="/api/v1", router= api_v1_router)
 
 
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)
+
+
