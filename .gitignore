@@ -2,6 +2,7 @@
 /backend/node_modules
 /backend/.env
 /backend/envAPI
+*.env
 
 # React frontend
 /frontend/node_modules

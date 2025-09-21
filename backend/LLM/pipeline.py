@@ -17,10 +17,10 @@ _sentiment_pipeline = None
 _summarizer = None
 _openai_client = None
 
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", default="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")
+API_KEY1 = os.getenv("API_KEY1", default="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")
 
-if OPENAI_API_KEY and OpenAI:
-    _openai_client = OpenAI(api_key=OPENAI_API_KEY)
+if API_KEY1 and OpenAI:
+    _openai_client = OpenAI(api_key=API_KEY1)
 
 # ========== Utilities ==========
 
