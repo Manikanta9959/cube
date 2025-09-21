@@ -3,6 +3,7 @@
 /backend/.env
 /backend/envAPI
 *.env
+backend/__pycache__/*
 
 # React frontend
 /frontend/node_modules
