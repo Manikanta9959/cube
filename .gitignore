@@ -1,0 +1,13 @@
+# Node backend
+/backend/node_modules
+/backend/.env
+/backend/envAPI
+
+# React frontend
+/frontend/node_modules
+/frontend/.env
+/frontend/build
+
+# System
+.DS_Store
+*.log
